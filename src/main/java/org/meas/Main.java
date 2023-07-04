@@ -103,10 +103,11 @@ public class Main {
         byte age = scanner.nextByte(); // nextDouble, nexxtFloat, ...
         System.out.println("You are " + age);
 
+        System.out.println("Enter your name: ");
+        String test = scanner.next(); // Ange Ekossono: it will return Ange.
 
-        Scanner scanner2 = new Scanner(System.in);
-        String test = scanner2.next(); // Ange Ekossono: it will return Ange.
-        String name2 = scanner2.nextLine(); // returns the whole line
+        System.out.println("Enter your name again: ");
+        String name2 = scanner.nextLine(); // returns the whole line
 
 
     }
